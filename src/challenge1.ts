@@ -1,6 +1,3 @@
-// Don't delete code bellow and this code must be at the bottom of the file
-export { addBook, listBooks, searchBook };
-
 // 1. Create a type for book
 type Book = {
   title: string;
@@ -46,3 +43,6 @@ function searchBook(searchTitle?: string): void {
     console.log(`No books found with title containing "${searchTitle}".`);
   }
 }
+
+// Don't delete code bellow and this code must be at the bottom of the file
+export { addBook, listBooks, searchBook };
